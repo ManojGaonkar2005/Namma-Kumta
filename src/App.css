@@ -1,0 +1,16 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+.Main-Content {
+    flex: 1; /* Pushes the footer to the bottom */
+    margin-top: 70px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    width: 100%;
+}

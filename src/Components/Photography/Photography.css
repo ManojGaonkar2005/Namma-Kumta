@@ -1,0 +1,92 @@
+.Photography-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
+}
+
+.Section-Head {
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    padding: 5px 12px;
+}
+
+.Section-Head img {
+    width: 20px;
+    padding: 0px 10px 0px 0px;
+}
+
+.Section-Head a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Contagary {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap:10px
+}
+
+.Contagary-upper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.Contagary-Img {}
+
+.Contagary-Img img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.Contagary-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Contagary-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.Contagary-info {
+    font-size: 15px;
+    color: #666;
+}
+
+.Contagary-Rating {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    background: green;
+    text-align: center;
+    width: max-content;
+    padding: 0 7px 2px 7px;
+    border-radius: 5px;
+}
+.rating-number{
+    font-weight: 700;
+    padding-right: 4px;
+}
+
+
+.Contagary-lower button{
+    background-color: #007bff;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
