@@ -12,6 +12,19 @@ export const MakeupData = [
     title: "Soundarya Beauty Parlour",
     info: "Sumuka nilaya, mark compound,Halkar Kumta, Karnataka 581343",
     rating: "4.7",
+  },{
+    id: 3,
+    image: "./Images/h2.png",
+    title: "Soundarya Beauty Parlour",
+    info: "Sumuka nilaya, mark compound,Halkar Kumta, Karnataka 581343",
+    rating: "4.7",
+  },
+  {
+    id: 4,
+    image: "./Images/h2.png",
+    title: "Soundarya Beauty Parlour",
+    info: "Sumuka nilaya, mark compound,Halkar Kumta, Karnataka 581343",
+    rating: "4.7",
   },
 ];
 export const PhotoData = [
