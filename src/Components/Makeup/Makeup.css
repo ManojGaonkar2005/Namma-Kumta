@@ -5,11 +5,19 @@
     font-family: system-ui, 'Helvetica Neue', sans-serif;
 }
 
+.Photography-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: system-ui, 'Helvetica Neue', sans-serif;
+}
 .Section-Head {
     display: flex;
     align-items: center;
     background-color: #ddd;
     padding: 5px 12px;
+    position: fixed;
+    width: 100%;
 }
 
 .Section-Head img {
@@ -23,22 +31,21 @@
     font-size: 20px;
     font-weight: 500;
 }
-
+.Full-Body-Content{
+    margin-top: 40px;
+}
 .Contagary {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    gap:10px
+    padding: 10px;
+    gap: 10px;
 }
 
 .Contagary-upper {
     display: flex;
     flex-direction: row;
     gap: 20px;
-
 }
-
-.Contagary-Img {}
 
 .Contagary-Img img {
     width: 100px;
@@ -50,6 +57,7 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
+
 }
 
 .Contagary-heading {
@@ -74,13 +82,14 @@
     padding: 0 7px 2px 7px;
     border-radius: 5px;
 }
-.rating-number{
+
+.rating-number {
     font-weight: 700;
     padding-right: 4px;
 }
 
 
-.Contagary-lower button{
+.Contagary-lower button {
     background-color: #007bff;
     color: #fff;
     width: 100%;

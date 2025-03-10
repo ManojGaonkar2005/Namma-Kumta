@@ -8,6 +8,7 @@ const Makeup = () => {
         <img src="./Icons/Arrow-Back.png" alt="" />
         <a href="">Hair & Makeup</a>
       </div>
+      <div className="Full-Body-Content">
       {MakeupData.map((item) => (
         <div className="Contagary" key={item.id}>
           <div className="Contagary-upper">
@@ -25,6 +26,7 @@ const Makeup = () => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };

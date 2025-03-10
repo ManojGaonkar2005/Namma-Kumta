@@ -8,6 +8,7 @@ const Photography = () => {
             <img src="./Icons/Arrow-Back.png" alt="" />
             <a href="">Photography & Videography</a>
           </div>
+          <div className="Full-Body-Content">
           {PhotoData.map((item) => (
             <div className="Contagary" key={item.id}>
               <div className="Contagary-upper">
@@ -25,6 +26,7 @@ const Photography = () => {
               </div>
             </div>
           ))}
+          </div>
           </div>
   )
 }

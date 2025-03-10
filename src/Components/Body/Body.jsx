@@ -11,7 +11,7 @@ const Body = () => {
         <Header />
       </div>
       <div className="Body-Content">
-        <Photography/>
+        {/* <Photography/> */}
         <Makeup/>
       </div>
       <div className="body-Fotter">
